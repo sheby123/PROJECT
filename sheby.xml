@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2C3E4">
+
+    <TextView
+        android:id="@+id/cal"
+        android:text="Calculator"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff">
+    </TextView>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bitn7"
+            android:text="7"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitn8"
+            android:text="8"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+    <Button
+        android:id="@+id/bitn9"
+        android:text="9"
+        android:textSize="50sp"
+        android:layout_weight="100dp"
+        android:layout_height="match_parent">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/division"
+        android:text="/"
+        android:textSize="50sp"
+        android:layout_weight="100dp"
+        android:layout_height="match_parent">
+
+    </Button>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bitn4"
+            android:text="4"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitn5"
+            android:text="5"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitn6"
+            android:text="6"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/x"
+            android:text="x"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bitn1"
+            android:text="1"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitn2"
+            android:text="2"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitn3"
+            android:text="3"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/bitn1minute"
+            android:text="-"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bitn4"
+            android:text="4"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitnc"
+            android:text="c"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bitnequal"
+            android:text="="
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/addition"
+            android:text="+"
+            android:textSize="50sp"
+            android:layout_weight="100dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+    </TableRow>
+</TableLayout>
